@@ -115,6 +115,34 @@ label {
     width: 20px;
     height: 20px;
     cursor: pointer;
+
+}
+
+.barra {
+    background-color: var(--fundo-senha);
+    height: 30px;
+    width: 100%;
+}
+
+.forca {
+    height: 30px;
+    position: relative;
+    bottom: 30px;
+}
+
+.fraca {
+    background-color: #e71b32;
+    width: 25%;
+}
+
+.media {
+    background-color: #faf408;
+    width: 50%;
+}
+
+.forte {
+    background-color: #00ff85;
+    width: 100%;
 }
 
 @media screen and (min-width: 768px) {
